@@ -1,0 +1,43 @@
+.mySwiper {
+    width: 23rem;
+    height: 28rem;
+  }
+  
+  .slide-image{
+    width: 23rem;
+    height: 28rem;
+  }
+  .swiper-slide{
+    border-radius: 18px;
+    border: 2px solid white;
+  }
+  .s-buttons{
+    margin: 1.2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .s-button{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    transition: all ease-in 0.2s;
+    border: none ;
+  }
+  .s-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: var(--blue-gradient);
+    color: white;
+  }
+  @media (max-width: 640px){
+    .mySwiper {
+      width: 15rem;
+      height: 20rem;
+    }
+    .s-buttons{
+      display: none;
+    }
+  }
