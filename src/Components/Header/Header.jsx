@@ -12,7 +12,7 @@ export default function Header(){
     return(
         <section className="h-wraper">
             <div className="flexRow  innerWidth h-container">
-                <img src="/logo.png" alt="logo" width={100} />
+                <img src="./logo.png" alt="logo" width={100} />
                 <OutsideClickHandler onOutsideClick={()=>setMenuOpened(false)}>
                     <div className="h-menu flexCenter"
                     style={getMenuStyles(menuOpened)}

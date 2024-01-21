@@ -22,3 +22,9 @@
 .social-icon{
     font-size: 1.8rem;
 }
+
+@media (max-width:768px) {
+    .f-center{
+        align-items: flex-start;
+    }
+}
